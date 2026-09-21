@@ -1,0 +1,20 @@
+/* Estilos personalizados do site Ritmos da Terra */
+
+/* Gradiente temático para a seção Hero */
+.gradient-bg {
+    background: linear-gradient(135deg, #78350f 0%, #d97706 50%, #b45309 100%);
+}
+
+/* Suavizar a rolagem da página ao clicar nos links do menu */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Animação suave para os cards ao passar o mouse */
+#estilos .bg-white {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#estilos .bg-white:hover {
+    transform: translateY(-5px);
+}
