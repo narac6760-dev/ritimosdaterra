@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritmos da Terra - Escola de Dança</title>
+    <!-- Tailwind CSS CDN para estilização base rápida -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Arquivo CSS próprio -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-amber-50 text-stone-800 font-sans">
+
+    <!-- Cabeçalho / Navegação -->
+    <header class="bg-stone-900 text-amber-50 sticky top-0 z-50 shadow-md">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-drum text-amber-500 text-2xl"></i>
+                <span class="text-2xl font-bold tracking-wider uppercase">Ritmos da Terra</span>
+            </div>
+            <nav class="hidden md:flex space-x-6 font-semibold">
+                <a href="#estilos" class="hover:text-amber-500 transition">Estilos</a>
+                <a href="#horarios" class="hover:text-amber-500 transition">Dias e Horários</a>
+                <a href="#agendamento" class="hover:text-amber-500 transition">Agendar Aula</a>
+            </nav>
+            <a href="#agendamento" class="bg-amber-600 hover:bg-amber-700 text-white px-4 py-2 rounded-lg font-bold transition">
+                Agende Agora
+            </a>
+        </div>
+    </header>
+
+    <!-- Banner Principal (Hero) -->
+    <section class="gradient-bg text-white py-20 px-4 text-center">
+        <div class="max-w-3xl mx-auto">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-4">Sinta a Energia das Danças Brasileiras</h1>
+            <p class="text-lg md:text-xl mb-8">Aprenda Frevo, Maracatu, Afoxé, Samba, Carimbó, Caboclinho, Xaxado e Forró no melhor espaço cultural da cidade.</p>
+            <a href="#agendamento" class="bg-amber-500 hover:bg-amber-600 text-stone-900 font-bold px-8 py-3 rounded-full text-lg shadow-lg inline-block transition">
+                Fazer Aula Experimental
+            </a>
+        </div>
+    </section>
+
+    <!-- Estilos de Dança -->
+    <section id="estilos" class="py-16 container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-wide border-b-4 border-amber-500 w-fit mx-auto pb-2">
+            Nossos Estilos
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Frevo -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-umbrella text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Frevo</h3>
+                    <p class="text-stone-600 text-sm">Energia, acrobacias e muita cor em um dos ritmos mais vibrantes do Nordeste.</p>
+                </div>
+            </div>
+            <!-- Maracatu -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-crown text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Maracatu</h3>
+                    <p class="text-stone-600 text-sm">A força da percussão e o cortejo ancestral em movimentos cheios de tradição.</p>
+                </div>
+            </div>
+            <!-- Afoxé -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-[#c2410c] text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Afoxé</h3>
+                    <p class="text-stone-600 text-sm">O candomblé de rua, dançado com graciosidade, axé e espiritualidade.</p>
+                </div>
+            </div>
+            <!-- Samba -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-music text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Samba</h3>
+                    <p class="text-stone-600 text-sm">O gingado e o samba no pé clássico da cultura nacional.</p>
+                </div>
+            </div>
+            <!-- Carimbó -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-fan text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Carimbó</h3>
+                    <p class="text-stone-600 text-sm">A expressão amazônica com saias rodadas, ritmo envolvente e alegria.</p>
+                </div>
+            </div>
+            <!-- Caboclinho -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-feather text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Caboclinho</h3>
+                    <p class="text-stone-600 text-sm">Dança guerreira de ritmo rápido, marcada pelo som das precas e estalidos.</p>
+                </div>
+            </div>
+            <!-- Xaxado -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-shoe-prints text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Xaxado</h3>
+                    <p class="text-stone-600 text-sm">A dança dos cangaçeiros, arrastando a alpargata no chão com firmeza e ritmo.</p>
+                </div>
+            </div>
+            <!-- Forró -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition">
+                <div class="p-6">
+                    <i class="fa-solid fa-heart text-amber-600 text-3xl mb-3"></i>
+                    <h3 class="text-xl font-bold mb-2">Forró</h3>
+                    <p class="text-stone-600 text-sm">Baião, xote e pé-de-serra para dançar coladinho ou com muitos giros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dias e Horários -->
+    <section id="horarios" class="py-16 bg-amber-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 uppercase tracking-wide border-b-4 border-amber-500 w-fit mx-auto pb-2">
+                Dias e Horários
+            </h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-stone-900 text-amber-50">
+                                <th class="p-4 font-bold">Estilo</th>
+                                <th class="p-4 font-bold">Dias da Semana</th>
+                                <th class="p-4 font-bold">Horário</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-amber-100" id="tabela-horarios">
+                            <!-- Preenchido via HTML/JS -->
+                            <tr>
+                                <td class="p-4 font-semibold text-amber-900">Frevo</td>
+                                <td class="p-4">Segunda e Quarta</td>
+                                <td class="p-4">18:00 - 19:00</td>
+                            </tr>
+                            <tr class="bg-amber-50/50">
+                                <td class="p-4 font-semibold text-amber-900">Maracatu</td>
+                                <td class="p-4">Terça e Quinta</td>
+                                <td class="p-4">19:00 - 20:00</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold text-amber-900">Afoxé</td>
+                                <td class="p-4">Segunda e Quarta</td>
+                                <td class="p-4">19:00 - 20:00</td>
+                            </tr>
+                            <tr class="bg-amber-50/50">
+                                <td class="p-4 font-semibold text-amber-900">Samba</td>
+                                <td class="p-4">Terça e Quinta</td>
+                                <td class="p-4">18:00 - 19:00</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold text-amber-900">Carimbó</td>
+                                <td class="p-4">Sexta-feira</td>
+                                <td class="p-4">18:00 - 19:30</td>
+                            </tr>
+                            <tr class="bg-amber-50/50">
+                                <td class="p-4 font-semibold text-amber-900">Caboclinho</td>
+                                <td class="p-4">Sábado</td>
+                                <td class="p-4">09:00 - 10:30</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-semibold text-amber-900">Xaxado</td>
+                                <td class="p-4">Sábado</td>
+                                <td class="p-4">10:30 - 12:00</td>
+                            </tr>
+                            <tr class="bg-amber-50/50">
+                                <td class="p-4 font-semibold text-amber-900">Forró</td>
+                                <td class="p-4">Sexta e Sábado</td>
+                                <td class="p-4">19:30 - 21:00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agendamento -->
+    <section id="agendamento" class="py-16 container mx-auto px-4">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-2xl shadow-xl border border-amber-200">
+            <h2 class="text-3xl font-bold text-center mb-6 text-stone-900">Agende sua Aula</h2>
+            <p class="text-center text-stone-600 mb-8">Preencha os dados abaixo para garantir a sua vaga na aula experimental.</p>
+            
+            <form id="form-agendamento" class="space-y-4">
+                <div>
+                    <label class="block font-semibold text-stone-700 mb-1">Nome Completo</label>
+                    <input type="text" id="nome" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="Seu nome">
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-stone-700 mb-1">E-mail</label>
+                    <input type="email" id="email" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="seuemail@email.com">
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-stone-700 mb-1">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500" placeholder="(00) 00000-0000">
+                </div>
+
+                <div>
+                    <label class="block font-semibold text-stone-700 mb-1">Estilo de Dança</label>
+                    <select id="estilo" required class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-500 bg-white">
+                        <option value="">Selecione um estilo</option>
+                        <option value="Frevo">Frevo</option>
+                        <option value="Maracatu">Maracatu</option>
+                        <option value="Afoxé">Afoxé</option>
+                        <option value="Samba">Samba</option>
+                        <option value="Carimbó">Carimbó</option>
+                        <option value="Caboclinho">Caboclinho</option>
+                        <option value="Xaxado">Xaxado</option>
+                        <option value="Forró">Forró</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 rounded-lg shadow-lg transition duration-200">
+                    Confirmar Agendamento
+                </button>
+            </form>
+
+            <div id="mensagem-sucesso" class="hidden mt-6 p-4 bg-green-100 border border-green-400 text-green-700 text-center rounded-lg">
+                <i class="fa-solid fa-check-circle text-xl mr-2"></i>
+                <span>Agendamento realizado com sucesso! Entraremos em contato em breve.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-stone-900 text-amber-50 py-8 text-center">
+        <p>&copy; 2026 Ritmos da Terra - Todos os direitos reservados.</p>
+        <p class="text-sm text-stone-400 mt-2">Valorizando a cultura e as tradições do Brasil.</p>
+    </footer>
+
+    <!-- Arquivo JavaScript Próprio -->
+    <script src="script.js"></script>
+</body>
+</html>
